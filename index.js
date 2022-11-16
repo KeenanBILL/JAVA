@@ -196,17 +196,17 @@
 //   x++;
 // }  
 
-// let myName = prompt ('What is your name')
+let myName = prompt ('What is your name')
 
-// function greet (name) {
+function greet (name) {
   
-//   console.log (' Hello ' + name) 
-// };
-
-// greet( myName );
-
- function addIt ( num1 ,num2) {
- console.log (num1 + num2 )
+  console.log (' Hello ' + name) 
 };
 
-addIt (1, 2);
+greet( myName );
+
+//  function addIt ( num1 ,num2) {
+//  console.log (num1 + num2 )
+// };
+
+// addIt (1, 2);
