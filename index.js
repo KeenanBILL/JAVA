@@ -181,17 +181,32 @@
 //   loading++;
 //}
 
-const cars = [
-  'Toyota',
-  'Opel',
-  'Nissan',
-  'Subaru',
-  'Fiat'
-];
+// const cars = [
+//   'Toyota',
+//   'Opel',
+//   'Nissan',
+//   'Subaru',
+//   'Fiat'
+// ];
 
-let x=0;
+// let x=0;
 
-while(x < cars.length) {
-  console.log('This ' + (cars[x]) + ' has an index ' + x);
-  x++;
-} 
+// while(x < cars.length) {
+//   console.log('This ' + (cars[x]) + ' has an index ' + x);
+//   x++;
+// }  
+
+// let myName = prompt ('What is your name')
+
+// function greet (name) {
+  
+//   console.log (' Hello ' + name) 
+// };
+
+// greet( myName );
+
+ function addIt ( num1 ,num2) {
+ console.log (num1 + num2 )
+};
+
+addIt (1, 2);
